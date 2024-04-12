@@ -21,3 +21,21 @@ Example: <br />
 java A1_G1_t1 ./groceries.csv 0.05
 ```
 ## FP-Growth Algorithm
+The FP-growth algorithm, short for Frequent Pattern growth, is a widely used method in data mining for discovering frequent patterns in datasets, particularly in transactional databases or relational tables. It operates by constructing a compact data structure called the FP-tree (Frequent Pattern tree), which represents the frequent itemsets in the dataset.
+
+### Running the FP-Growth Algorithm
+To run the Apriori algorithm implementation, follow these steps: <br />
+Compile the Java source file:
+```
+javac A1_G1_t2.java 
+```
+Run the compiled program with the following command-line arguments:
+```
+java A1_G1_t2 {path_to_data} {minsup}
+```
+{path_to_data}: Specify the path to the input dataset file. <br />
+{minsup}: Specify the minimum support threshold as a decimal value (e.g., 0.5 for 50% support). <br />
+Example: <br />
+```
+java A1_G1_t2 ./groceries.csv 0.05
+```
