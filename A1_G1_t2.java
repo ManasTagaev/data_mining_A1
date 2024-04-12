@@ -350,7 +350,7 @@ class FPTree{
 
 
 
-public class fpgrowth{
+public class A1_G1_t2{
     public static void main(String[] args) {
         String csvFile = args[0];
 
@@ -366,8 +366,7 @@ public class fpgrowth{
         } catch (IOException e) {
             e.printStackTrace();
         }
-        double minSupport = Double.parseDouble(args[1]) * transactions.size(); 
-        System.out.println(minSupport); 
+        double minSupport = Double.parseDouble(args[1]) * transactions.size();
 
         Map<List<String>,Double>  patterns = findFrequentPatterns(transactions, minSupport);
         
