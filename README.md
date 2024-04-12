@@ -8,16 +8,16 @@ The Apriori algorithm is an influential algorithm for mining frequent itemsets i
 To run the Apriori algorithm implementation, follow these steps: <br />
 Compile the Java source file:
 ```
-javac A1_G1_t1.java <br />
+javac A1_G1_t1.java 
 ```
 Run the compiled program with the following command-line arguments:
 ```
 java A1_G1_t1 {path_to_data} {minsup}
 ```
-{path_to_data}: Specify the path to the input dataset file.
+{path_to_data}: Specify the path to the input dataset file. <br />
 {minsup}: Specify the minimum support threshold as a decimal value (e.g., 0.5 for 50% support). <br />
 Example: <br />
 ```
-java A1_G1_t1 /path/to/dataset.txt 0.3
+java A1_G1_t1 ./groceries.csv 0.05
 ```
 ## FP-Growth Algorithm
